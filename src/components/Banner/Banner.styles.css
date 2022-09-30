@@ -160,4 +160,8 @@
   .bannerText{
     text-align: center;
   }
+
+  .tagline{
+    margin-left: 45px;
+  }
 }
