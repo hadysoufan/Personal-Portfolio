@@ -32,9 +32,7 @@ export const Banner = () => {
                       <li>
                         <span>Developer</span>
                       </li>
-                      {/* <li>
-                        <span>Freelancer</span>
-                      </li> */}
+                      
                     </ul>
                   </div>
                   <p>

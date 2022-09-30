@@ -3,7 +3,7 @@
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('../../assets/img/banner-bg.png');
+  background-image: url("../../assets/img/banner-bg.png");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -106,7 +106,7 @@
   line-height: 90px;
 }
 .dynamic-txts li span::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   height: 100%;
@@ -125,3 +125,35 @@
   }
 }
 
+@media screen and (max-width: 800px) {
+ 
+  .static-txt{
+    margin-bottom: 55px;
+    margin-left: 65px;
+  }
+
+  .dynamic-txts{
+    display: block;
+    position: absolute;
+    top: 350px;
+    margin-left: 45px;
+  }
+
+  .dynamic-txts li span::after {
+    position: absolute;
+    left: -5px;
+    top: 5px;
+    height: 100%;
+    width: 100%;
+  }
+
+  .wrapper .static-txt {
+    font-size: 40px;
+    font-weight: 300;
+  }
+
+  .dynamic-txts li {
+    font-size: 30px;
+    font-weight: 200; 
+  }
+}
