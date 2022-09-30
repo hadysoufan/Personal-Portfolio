@@ -35,7 +35,7 @@ export const Banner = () => {
                       
                     </ul>
                   </div>
-                  <p>
+                  <p className="bannerText">
                     Hello, my name is Hadi Soufan 2nd year Computer Science
                     Network Security faculty with 3/4 gpa. I have been learing
                     web development since March 2022. Gained skilles in html,
