@@ -208,3 +208,42 @@
     margin-left: 45px;
   }
 }
+
+@media only screen and (min-width: 1600px) {
+  .static-txt {
+    margin-bottom: 55px;
+  }
+
+  .dynamic-txts {
+    display: block;
+    position: absolute;
+    top: 315px;
+    left: 520px;
+  }
+
+  .dynamic-txts li span::after {
+    position: absolute;
+    left: -5px;
+    top: 5px;
+    height: 100%;
+    width: 100%;
+  }
+
+  .wrapper .static-txt {
+    font-size: 40px;
+    font-weight: 200;
+  }
+
+  .dynamic-txts li {
+    font-size: 35px;
+    font-weight: 200;
+  }
+
+  .bannerText {
+    text-align: center;
+  }
+
+  .tagline {
+    margin-left: 45px;
+  }
+}
