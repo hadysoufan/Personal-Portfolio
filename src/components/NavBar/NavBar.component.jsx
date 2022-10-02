@@ -7,6 +7,7 @@ import navIcon3 from "../../assets/img/nav-icon3.svg";
 import { HashLink } from "react-router-hash-link";
 import { BrowserRouter as Router } from "react-router-dom";
 import "./NavBar.styles.css";
+import { Link } from "react-router-dom";
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
@@ -98,11 +99,16 @@ export const NavBar = () => {
                   <img src={navIcon3} alt="" />
                 </a>
               </div>
-              <HashLink to="#connect">
+
+              <a
+                href="mailto:had1soufan159@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <button className="vvd">
                   <span>Let’s Connect</span>
                 </button>
-              </HashLink>
+              </a>
             </span>
           </Navbar.Collapse>
         </Container>

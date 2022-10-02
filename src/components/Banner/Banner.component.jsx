@@ -32,7 +32,6 @@ export const Banner = () => {
                       <li>
                         <span>Developer</span>
                       </li>
-                      
                     </ul>
                   </div>
                   <p className="bannerText">
@@ -42,9 +41,15 @@ export const Banner = () => {
                     css, scss, javaScript, nodeJs, reactJs, and some typeSript
                     Skills.
                   </p>
-                  <button onClick={() => console.log("connect")}>
-                    Let’s Connect <ArrowRightCircle size={25} />
-                  </button>
+                  <a className="email"
+                    href="mailto:had1soufan159@gmail.com"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <button>
+                      Let’s Connect <ArrowRightCircle size={25} />
+                    </button>
+                  </a>
                 </div>
               )}
             </TrackVisibility>

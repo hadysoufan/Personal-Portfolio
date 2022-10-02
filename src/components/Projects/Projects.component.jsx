@@ -17,7 +17,7 @@ export const Projects = () => {
       title: "Bankist",
       description: "Simplere banking experience for a simpler life",
       imgUrl: projImg1,
-      link: "https://6336d94ed383c4166519a78e--delicate-ganache-1a6bd9.netlify.app/",
+      link: "https://633920e80558fc0f1a238d02--peaceful-eclair-524889.netlify.app/",
     },
     {
       title: "Dosa Food",
@@ -29,17 +29,19 @@ export const Projects = () => {
       title: "Mapty",
       description: "Website using only javaScript to track your Sports Journey",
       imgUrl: projImg3,
-      link: "https://6336700834be44282395a729--golden-bienenstitch-435a6b.netlify.app/",
+      link: "https://6337cd13ab76de2a156474b7--dashing-cheesecake-9f0db1.netlify.app/",
     },
     {
       title: "eGlow Website",
       description: "eCommerce website for selling clothe and shoes",
       imgUrl: projImg4,
+      link: "https://verdant-genie-a4ae11.netlify.app/",
     },
     {
       title: "House Market App",
       description: "reactJs app for selling and renting houses and condo",
       imgUrl: projImg5,
+      link: "https://63391f2fa7b24e11d7196749--darling-douhua-1b6e45.netlify.app/",
     },
     {
       title: "KAYAK",
